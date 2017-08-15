@@ -8,6 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "dev": "http-server ./swfobject",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/bitfyre/swfobject2020/issues"
   },
-  "homepage": "https://github.com/bitfyre/swfobject2020#readme"
+  "homepage": "https://github.com/bitfyre/swfobject2020#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
 }
